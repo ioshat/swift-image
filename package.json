@@ -1,0 +1,15 @@
+{
+  "name": "ioshat-objc-image",
+  "title": "Image (Swift)",
+  "version": "0.0.1",
+  "description": "Template for Image in Swift",
+  "scope": "source.swift",
+  "main": "dust.js",
+  "category": "image",
+  "author": "Tomas Ruzicka <tomasruzicka@abdoc.net> (https://github.com/lezuse)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "bundledDependencies": [
+  ]
+}
