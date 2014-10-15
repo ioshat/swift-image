@@ -30,7 +30,7 @@ var helpers = {
     },
     objCFont: function(chunk, ctx, bodies, params) {
       var baseTextStyle = ctx.get('baseTextStyle');
-      return chunk.write(baseTextStyle.font.name);
+      return chunk.write(baseTextStyle.font.postScriptName || baseTextStyle.font.name);
     }
 };
 
